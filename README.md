@@ -4,23 +4,23 @@
 Antes de empezar a realizar los ejercicios debes crear las tablas necesarias. Para ello debes utilizar el archivo BD05_CreaTablasTarea.sql(0.01 MB) y en Archivos de Comandos SQL debes cargarlo y ejecutarlo.
 
 Inserta un registro nuevo en la tabla PROFESORADO utilizando la herramienta gráfica Application Express que ofrece Oracle Database Express. Los datos deben ser los siguientes: 
-Codigo: 1
-Nombre: NURIA
-Apellidos: ANERO GONZALEZ
-DNI: 58328033X
-Especialidad: MATEMATICAS
-Fecha_Nac: 22/02/1972
-Antiguedad: 9
+* Codigo: 1
+* Nombre: NURIA
+* Apellidos: ANERO GONZALEZ
+* DNI: 58328033X
+* Especialidad: MATEMATICAS
+* Fecha_Nac: 22/02/1972
+* Antiguedad: 9
 Debes entregar una captura de pantalla de la ventana en la que estás introduciendo los datos, justo antes de pulsar el botón para guardarlos.  
 ![image](https://user-images.githubusercontent.com/44543081/54458549-8bd7fb00-4764-11e9-92a1-74f2bac46ed9.png)  
 ![image](https://user-images.githubusercontent.com/44543081/54458641-c5106b00-4764-11e9-8899-432fdfe75a16.png)  
 Inserta varios registros más en la tabla PROFESORADO utilizando sentencias SQL. En la entrega de la tarea debes copiar las sentencias que has utilizado. Los datos deben ser los siguientes: 
 Tabla PROFESORADO
 Codigo	Nombre	Apellidos	DNI	Especialidad	Fecha_Nac	Antiguedad
-2	MARIA LUISA	FABRE BERDUN	51083099F	TECNOLOGIA	31/03/1975	4
-3	JAVIER	JIMENEZ HERNANDO		LENGUA	04/05/1969	10
-4	ESTEFANIA	FERNANDEZ MARTINEZ	19964324W	INGLES	22/06/1973	5
-5	JOSE M.	ANERO PAYAN				
+* 2	MARIA LUISA	FABRE BERDUN	51083099F	TECNOLOGIA	31/03/1975	4
+* 3	JAVIER	JIMENEZ HERNANDO		LENGUA	04/05/1969	10
+* 4	ESTEFANIA	FERNANDEZ MARTINEZ	19964324W	INGLES	22/06/1973	5
+* 5	JOSE M.	ANERO PAYAN				
 Los datos que aparecen en blanco no deben utilizarse en las sentencias.
 ```SQL
 INSERT INTO PROFESORADO (CODIGO, NOMBRE, APELLIDOS, DNI, ESPECIALIDAD,FECHA_NAC, ANTIGUEDAD) VALUES 
@@ -35,12 +35,12 @@ INSERT INTO PROFESORADO (CODIGO, NOMBRE, APELLIDOS) VALUES
 Modifica los registros de la tabla CURSOS para asignar a cada curso un profesor o profesora. Utiliza para ello la herramienta gráfica, entregando con la tarea una captura de pantalla de la pestaña Datos de esa tabla, donde se aprecien todos los cambios que has realizado. El profesorado que debes asignar a cada curso es: 
 Tabla CURSOS
 Codigo	Cod_Profe
-1	4
-2	2
-3	2
-4	1
-5	1
-6	3  
+* 1	4
+* 2	2
+* 3	2
+* 4	1
+* 5	1
+* 6	3  
 ![image](https://user-images.githubusercontent.com/44543081/54458685-e5402a00-4764-11e9-90a3-930dd98f10d1.png)  
 ![image](https://user-images.githubusercontent.com/44543081/54458713-f25d1900-4764-11e9-9153-fab147c2c684.png)  
 ![image](https://user-images.githubusercontent.com/44543081/54458741-03a62580-4765-11e9-92b4-f5e77706c85b.png)  
